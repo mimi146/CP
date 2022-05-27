@@ -15,6 +15,8 @@ public class subsequence {
         return a+b;
     }
 
+    //hsd
+
     public static void main(String[]args){
 
         ArrayList<Integer> A= new ArrayList<>(Arrays.asList(1,2,8));
