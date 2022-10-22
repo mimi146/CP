@@ -1,4 +1,3 @@
-import javax.swing.*;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -7,8 +6,6 @@ public class subarray {
     public static int solve(int[] A) {
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
         int sum=0; int ans=0;
-
-
          map.put(0,-1);
 
         for(int i=0;i<A.length;i++) {

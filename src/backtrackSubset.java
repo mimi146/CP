@@ -11,7 +11,6 @@ public class backtrackSubset {
 
         currlist.add((Integer) A.get(index));
         generate(A,index+1,currlist);
-
         currlist.remove(currlist.size()-1);
         generate(A,index+1,currlist);
 
