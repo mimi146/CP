@@ -10,6 +10,8 @@ public class DivisorCount {
 
         for(int i=2; i<=max; i++) {
 
+            if(i > 10000) break;   // to handle over flow for large no.
+
             for(int j =i*i; j<=max; j +=i) {  // algorithm to get the smallest prime no.
 
                 if(spt[j] == j) {
@@ -50,12 +52,9 @@ public class DivisorCount {
 
           }
           ans1[i] = ans;
-
         }
-
         return ans1;
     }
-
 
     public static void main(String [] args) {
 
