@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class ExcelColumnNo {
     public static int titleToNumber(String A) {
@@ -8,9 +7,9 @@ public class ExcelColumnNo {
         int sum=0;int j=0; int ans=0;
         for(int i=A.length()-1;i>=0;i--)
         {
-            sum= (int)Math.pow(26,i);
+            sum = (int)Math.pow(26,i);
 
-            ans+=sum*(A.charAt(j)-64);
+            ans += sum*(A.charAt(j)-64);
 
             j++;
         }

@@ -10,8 +10,8 @@ public class subsequence {
        if(index==A.size())  return 0;
         //System.out.println(ans);
 
-    int a= generate(A,B-1,sum+A.get(index),index+1);
-   int b= generate(A, B, sum,index+1);
+        int a= generate(A,B-1,sum+A.get(index),index+1);
+        int b= generate(A, B, sum,index+1);
         return a+b;
     }
 
